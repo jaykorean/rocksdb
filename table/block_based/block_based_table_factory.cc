@@ -405,6 +405,7 @@ static struct BlockBasedTableTypeInfo {
         case OptionType::kCustomizable:
         case OptionType::kEncodedString:
         case OptionType::kArray:
+        case OptionType::kStringMap:
         case OptionType::kUnknown:
           // Not mutable, at least until race condition is resolved
           break;
